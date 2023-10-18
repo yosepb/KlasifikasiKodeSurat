@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- string activity/fragment halaman utama -->
+    <string name="app_name">Klasifikasi Kode Surat</string>
+    <string name="title_section1">Halaman Utama</string>
+    <string name="info_tentang_aplikasi">Aplikasi untuk mencari kode klasifikasi pada arsip/surat di lingkungan pemerintahan</string>
+    <string name="cara_pakai_aplikasi">Untuk mulai mencari kode arsip/surat, silakan tekan salah satu pilihan yang tersedia dibawah ini</string>
+    <string name="sumber_data">Basis data klasifikasi kode arsip/surat dalam aplikasi ini mengacu dan bersumber dari Lampiran Keputusan Menteri Dalam Negeri Republik Indonesia no. 78 tahun 2012 tentang Tata Kearsipan di lingkungan Kementerian Dalam Negeri dan Pemerintah Daerah, serta Peraturan Menteri Dalam Negeri Republik Indonesia no. 135 tahun 2017 tentang Perubahan pada peraturan sebelumnya.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="logo">Logo Aplikasi Klasifikasi Surat</string>
+    <string name="tombol_cari_kode">Berdasarkan Kode Surat</string>
+    <string name="tombol_cari_nama">Berdasarkan Nama Surat</string>
+
+    <!-- string activity/fragment pencarian nama & kode -->
+    <string name="berdasarkan_kode">Berdasarkan Kode:</string>
+    <string name="hint_masukan_kode">Masukan Klasifikasi Kode Surat</string>
+    <string name="berdasarkan_nama">Berdasarkan Nama:</string>
+    <string name="hint_masukan_nama">Masukan Klasifikasi Nama Surat</string>
+    <string name="title_activity_pencarian">Pencarian</string>
+
+    <!-- string fragment bagian surat (struktur nomor surat) -->
+    <string name="title_section2">Struktur Nomor Surat</string>
+    <string name="surat_umumnya">Secara umum, struktur nomor surat dinas resmi biasanya terdiri dari:</string>
+    <string name="surat_a">(a) Kode surat, kode yang memiliki pola klasifikasi berdasarkan subjek/pokok masalah, berupa angka desimal.</string>
+    <string name="surat_b">(b) Nomor urutan surat yang dikeluarkan.</string>
+    <string name="surat_c">(c) Nama lembaga/unit kerja (disebut juga komponen) yang mengeluarkan surat, unit kerja ini berupa singkatan atau akronim.</string>
+    <string name="surat_d">(d) Bulan saat surat dikeluarkan (dituliskan dengan angka romawi).</string>
+    <string name="surat_e">(e) Tahun saat surat dikeluarkan.</string>
+    <string name="surat_biasanya">Biasanya ke 5 komponen tersebut ditulis berurutan dengan menggunakan tanda (‘/’) sebagai pemisah. Berikut adalah struktur penulisannya (ditiap instansi pemerintahan mungkin dapat berbeda):</string>
+    <string name="surat_contoh">Nomor: (a) / (b) / (c) / (d) / (e)</string>
+    <string name="surat_untuk">Untuk lebih memahami tentang struktur penulisan nomor surat dinas, dibawah telah disediakan contoh surat dari beberapa instansi pemerintah:</string>
+    <string name="surat_cth_1">MENDAGRI (Setjen) perihal Penerapan Protokol Kesehatan</string>
+    <string name="surat_cth_2">PemKab Bandung (Disnaker) perihal Pelatihan Bahasa Asing</string>
+    <string name="surat_cth_3">MENDAGRI (Setjen) perihal Penghentian Pemotongan Tabungan Perumahan</string>
+
+    <!-- string fragment tentang -->
+    <string name="title_section3">Tentang Pengembang</string>
+    <string name="info_tentang_saya">Yosep Bahtiar, seorang mahasiswa Universitas Bale Bandung jurusan Teknik Informatika yang akhir-akhir ini gemar menghabiskan waktunya mempelajari bahasa pemrograman Java dan XML di Android.</string>
+    <string name="dospem_1">Pembimbing [1]: Rustiyana, S.T, M.T, M.Pd</string>
+    <string name="dospem_2">Pembimbing [2]: Yusuf Muharam, S.Kom, M.Kom</string>
+    <string name="info_tentang_aplikasi_2">Aplikasi ini dibangun terkait dengan penelitian yang dilakukan olehnya sebagai pengembang dan peneliti, yang tujuan penelitiannya untuk mengimplementasikan algoritma Boyer-Moore sebagai algoritma pencocokan string (kalimat) dalam aplikasi pencarian Klasifikasi Surat ini.</string>
+    <string name="dospem">Dalam penelitian ini, ia dibimbing oleh:</string>
+    <string name="narasumber">Narasumber: N. Maesaroh</string>
+    
+    <!-- string fragment tentang -->
+    <string name="title_activity_detail">Detail Surat</string>
+    <string name="detail_kode">Kode Surat: </string>
+    <string name="detail_nama">Nama Surat: </string>
+    <string name="detail_catatan">Catatan: </string>
+
+</resources>
